@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class e : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    int x = 5;
+
     void Start()
     {
-        
+        print("x = " + x);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
